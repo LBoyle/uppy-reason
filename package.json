@@ -4,7 +4,7 @@
   "description": "Template ReasonReact app on top of parcel-bundler",
   "main": "index.bs.js",
   "scripts": {
-    "dev": "./node_modules/parcel-bundler/bin/cli.js src/index.html",
+    "dev": "./node_modules/parcel-bundler/bin/cli.js src/index.html -p 8080",
     "build": "./node_modules/parcel-bundler/bin/cli.js build src/index.html --experimental-scope-hoisting"
   },
   "author": "louis_boyle@hotmail.com",
@@ -16,6 +16,10 @@
   },
   "dependencies": {
     "@glennsl/bs-json": "^2.0.0",
+    "@uppy/core": "^0.26.0",
+    "@uppy/drag-drop": "^0.26.0",
+    "@uppy/progress-bar": "^0.26.0",
+    "@uppy/tus": "^0.26.0",
     "bs-fetch": "^0.3.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
