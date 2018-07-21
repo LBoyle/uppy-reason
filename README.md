@@ -1,5 +1,5 @@
-# parcel-bundler-reason-template
-Template app for ReasonReact on parcel-bundler
+# uppy-reason
+Playing with Uppy DragDrop on ReasonReact, previews using base64 
 
 - Clone repo
 - Run ```npm install```
